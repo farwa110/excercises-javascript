@@ -1,0 +1,28 @@
+p {
+  background-color: orange;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: 500;
+  max-height: 100%;
+  max-width: 120%;
+}
+
+#myButton {
+  background-color: #007bff; /* Button background color */
+  color: white; /* Text color */
+  font-size: 16px; /* Font size */
+  padding: 10px 20px; /* Padding for top/bottom and left/right */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+#myButton:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.good-word {
+  background-color: yellow; /* You can change the color as per your design */
+  font-weight: bold;
+}
