@@ -14,3 +14,6 @@ console.log(
 console.log(str.substring(0, 2).toLowerCase() + str.substring(2, 3).toLowerCase() + str.substring(3, 4).toUpperCase() + str.substring(4).toLowerCase());
 
 console.log(str.substring(0, 2).toLowerCase() + str.substring(2, 3).toLowerCase() + str.substring(3, 4).toLowerCase() + str.substring(4).toUpperCase());
+
+//console.log(
+console.log(str.substring(0, 2).toLowerCase() + str[2].toUpperCase() + str.substring(3).toLowerCase()); //anden måde at gøre
