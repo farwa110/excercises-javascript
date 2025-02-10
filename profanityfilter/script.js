@@ -10,7 +10,7 @@ const curseWords = [
 // Function to replace bad words and highlight good words
 function replaceCurseWords() {
   let textElement = document.getElementById("text");
-  let currentSentence = textElement.innerText; // Get the current text from <p>
+  let currentSentence = textElement.innerText; // Get the current id = text from <p>  (<p id="text">).
 
   // console.log(replaceCurseWords);
 

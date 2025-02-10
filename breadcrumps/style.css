@@ -1,0 +1,25 @@
+/* Stil for brødkrummestien */
+#breadcrumbs ul {
+  list-style: none;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#breadcrumbs li {
+  margin-right: 30px;
+}
+
+#breadcrumbs li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+#breadcrumbs li a:hover {
+  text-decoration: underline;
+}
+
+#breadcrumbs li:last-child {
+  color: #6c757d; /* Farve for det sidste punkt i brødkrummestien */
+}
